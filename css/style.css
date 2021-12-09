@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    min-height: 100%;
+}
+
+body{
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.div-result{
+    height: 100%;
+    background-color: #d7d8d7;
+    padding-bottom: 10px;
+}
+
+
+.calculadora {
+    width: 400px;
+    margin: 100px auto;
+    margin-bottom: 15px;
+    background-color: #ffc0cb;
+    padding: 10px 15px 12px 15px;
+    border-radius: 20px;
+    
+}
+
+.conta {
+    font-size: 1.1em;
+    color: #000;
+    font-weight: 500;
+    margin-top: -10px;
+    text-align: right;
+    
+}
+
+#resultado{
+    margin-top: -12px;
+    font-size: 0.5em;
+}
+
+#resultadoconta{
+    font-size: 20px;
+    color: #ff0084;
+    font-weight: bold;
+}
+
+.display{
+    justify-content: flex-end;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px !important;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color:white;
+    color:black;
+    font: normal 4.0rem serif;
+    overflow: hidden;
+}
+
+.calculadora-botao{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+}
+.posicao{
+    grid-column-start: 3;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+
+}
+
+.calculadora button{
+    background-color: white;
+    color: black;
+    border-color: #ff0084 ;
+    padding: 20px;
+    font-size: 1.5rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.mt-5{
+    margin-top: 0px !important;
+}
+
+.digite_num{
+    font-size: 0.5em;
+}
+
+.table>:not(caption)>*>* {
+    color: #ff0084;
+}
+
+
